@@ -1,5 +1,6 @@
 body{
-    background-image: url("/static/background.jpg")
+    background-image: url("/static/background1.png");
+    background-size: cover;
 }
 
 #game-display{
@@ -8,26 +9,36 @@ body{
     
     
 }
+#game-title{
+    font-family: 'Mochain', sans-serif;
+    font-size:80px;
+}
 #start-button{
     position: relative;
     top:30vh;
+    background-color: inherit;
+    font-size: 50px;
+    font-family: 'Mochain', sans-serif;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
 }
 #main-game{
     display: none;
-    border: solid black;
     text-align: center;
-    padding-top: 10vh;
+    padding-top: 5vh;
     padding-bottom: 10vh;
 }
 #hidden-word{
-    margin-bottom: 7vh;
+    margin-bottom: 3vh;
     font-size: xx-large;
 }
 #keyboard-div{
     display: inline-block;
     text-align: center;
-    margin-top: 20vh;
-    /* margin-left: 10vw; */
+    margin-top: 16vh;
     width: 40vw;
     height: 30vh;
 }
@@ -36,4 +47,43 @@ body{
     width: 50px;
     height: 50px;
     font-size:larger;
+}
+#snowman{
+    position: absolute;
+    width: 23vw;
+    left: 8vw;
+    bottom: 14vh;
+}
+#result-window{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+
+}
+#result{
+    text-align: center;
+    font-size:xx-large;
+    padding-bottom: 10px;
+    font-family: 'Mochain', sans-serif;
+}
+#restart-icon{
+    cursor: pointer;
+}
+
+@keyframes scale-up-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+  }
+  .scale-up-ver-bottom {
+	animation: scale-up-ver-bottom 0.4s both;
 }
