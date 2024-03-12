@@ -103,4 +103,8 @@ body{
     #result-window{
         margin-top: 40vh;
     }
+    body{
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
   }

@@ -7,7 +7,7 @@ After 12, You've Lost And You Can Try Again.
 ## How to Setup:
 Docker:
 ```
-docker run -p 5000:5000 docker.io/randomg1/snowman-game:1
+docker run -p 5000:5000 docker.io/randomg1/snowman-game:2
 ```
 
 Locally:
