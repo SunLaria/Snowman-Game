@@ -2,14 +2,16 @@
 
 An Friendly Alternative To Hangman Game.
 
-Snowman Wrong Guess Animation
-
-Friendly Sound Effects for Game Start, Button Press, Win, Lose Scenerio.
+Features:
+- Exertnal API Word Definition
+- Wrong Guess Animation
+- Friendly Sound Effects for Game Start, Button Press, Win, Lose Scenerio.
+- Can Be Played On Desktop and Mobile
 
 
 ## How To Play
 
-- You Have 12 Guesses, Snowman Builds Up Every Wrong Guess With Nice Animation.
+- You Have 12 Guesses, Snowman Builds Up Every Wrong Guess With A Nice Animation.
 - After 12 Guesses, You've Lost And You Can Try Again.
 
 
@@ -40,4 +42,4 @@ Navigate to http://localhost:5000/ or http://127.0.0.1:5000/
 ## Additional Information
 
 - This Project Is Written in JS with the use of External Free API and Axios.
-- Added To Flask For docker.
+- Flask Build For Docker Integration.
