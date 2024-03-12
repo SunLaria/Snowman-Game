@@ -2,12 +2,19 @@
 
 An Friendly Alternative To Hangman Game.
 
-You Have 12 Guesses, Snowman Builds Up Every Wrong Guess
+Snowman Wrong Guess Animation
 
-After 12, You've Lost And You Can Try Again.
+Friendly Sound Effects for Game Start, Button Press, Win, Lose Scenerio.
 
-Friendly Sound Effects
 
+## How To Play
+
+- You Have 12 Guesses, Snowman Builds Up Every Wrong Guess With Nice Animation.
+- After 12 Guesses, You've Lost And You Can Try Again.
+
+
+## ScreenShots
+![](https://i.imgur.com/OKY5WLn.png)
 
 
 ## How to Setup:
@@ -16,6 +23,7 @@ Docker:
 docker run -p 5000:5000 docker.io/randomg1/snowman-game:2
 ```
 
+
 Locally:
 ```
 git clone https://github.com/SunLaria/Snowman-Game.git
@@ -23,7 +31,6 @@ cd Snowman-Game
 python -m pip install -r requirements.txt
 flask run
 ```
-
 
 
 ## How To Run:
