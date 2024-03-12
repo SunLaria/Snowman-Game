@@ -41,5 +41,5 @@ Navigate to http://localhost:5000/ or http://127.0.0.1:5000/
 
 ## Additional Information
 
-- This Project Is Written in JS with the use of External Free API and Axios.
-- Flask Build For Docker Integration.
+- This Game Is Written in JS, HTML, CSS with the use of External Free API and Axios.
+- Python Flask Build For Docker Integration.
